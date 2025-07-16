@@ -1,0 +1,35 @@
+.about {
+  &__container {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .data {
+    justify-self: center;
+  }
+
+  .title, .text {
+    color: #fff;
+  }
+
+
+}
+
+@media screen and (min-width: 767px) {
+  .about .data {
+    justify-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    &__container {
+      
+      align-items: center;
+    }
+
+    .data {
+      width: auto;
+    }
+  }
+}

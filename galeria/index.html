@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box299 - Galeria</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container">
+        <a href="#" class="logo">
+          <img src="../assets/img/logo.png" alt="logo" class="logo-icon" />
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="item">
+              <a href="/" class="link">Início</a>
+            </li>
+            <li class="item">
+              <a href="/" class="link">Serviços</a>
+            </li>
+            <li class="item">
+              <a href="/galeria/index.html" class="link">Galeria</a>
+            </li>
+            <li class="item">
+              <a href="/" class="link">Localização</a>
+            </li>
+          </ul>
+
+          <a href="#" class="button">Entrar em contato</a>
+        </div>
+
+        <div class="toggle" id="toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="galeria">
+        <div class="wrapper">
+          <div class="galeria__container container">
+            <p class="eyebrow section-eyebrow">
+              <span></span>
+              Estética Automotiva - Box 299
+            </p>
+            
+            <h2 class="title section-title">
+              Nossa galeria de fotos
+            </h2>
+            <p class="text section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum mollis risus, sed accumsan nisi ullamcorper non. Vestibulum bibendum diam sed nisi condimentum, et eleifend justo mollis.
+            </p>
+          </div>
+
+          <div class="overlay">
+            <img-comparison-slider>
+              <img
+                slot="first"
+                width="100%"
+                src="https://a-static.besthdwallpaper.com/black-racing-car-wallpaper-2560x1600-110087_7.jpg"
+              />
+              <img
+                slot="second"
+                width="100%"
+                src="https://wallpapers.com/images/hd/carro-2560x1440-rufqowax2lju0s4a.jpg"
+              />
+            </img-comparison-slider>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

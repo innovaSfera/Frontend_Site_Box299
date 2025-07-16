@@ -1,0 +1,46 @@
+// ===== FONT GOOGLE =====
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+// ===== VARIABLE CSS CLASS =====
+// header height
+$header-height: 6rem;
+
+// color palette
+$black-color: #101010;
+$grey-color: #1d1d1d;
+$white-color: #ffffff;
+$brown-color: #ed1c24;
+$yellow-color: #FAD009;
+
+// font global
+$font-title: "Manrope", serif;
+$font-body: "Manrope", sans-serif;
+
+// font weight
+$font-light: 300;
+$font-reguler: 400;
+$font-medium: 500;
+$font-semibold: 600;
+
+// margin
+$margin-0-5: 0.5rem;
+$margin-1: 1rem;
+$margin-1-5: 1.5rem;
+$margin-2: 2rem;
+$margin-2-5: 2.5rem;
+$margin-3: 3rem;
+$margin-3-5: 3.5rem;
+$margin-4: 4rem;
+
+// z-index
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+
+// transition
+$transition-400: 0.4s;
+
+// line-height
+$leading-title: 120%;
+$leading-text: 180%;

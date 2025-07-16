@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  font-weight: $font-reguler;
+  background-color: $black-color;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+input,
+button,
+textarea {
+  font-family: $font-body;
+  font-weight: $font-semibold;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: $brown-color;
+  color: $white-color;
+}

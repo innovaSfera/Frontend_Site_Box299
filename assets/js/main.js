@@ -1,0 +1,24 @@
+// ===== SHOW MENU =====
+function showMenu(menuId, toggleId) {
+  const menu = document.getElementById(menuId);
+  const toggle = document.getElementById(toggleId);
+
+  if (menu && toggle) {
+    toggle.onclick = () => {
+      menu.classList.toggle("show-menu");
+    };
+  }
+}
+showMenu("menu", "toggle");
+
+// ===== STICKY HEADER =====
+const scrollY = window.pageYOffset;
+
+function stickyHeader() {
+  const header = document.getElementById("header");
+
+  this.scrollY > 5
+    ? header.classList.add("sticky-action")
+    : header.classList.remove("sticky-action");
+}
+window.addEventListener("scroll", stickyHeader);
