@@ -31,6 +31,29 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .title {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    font-size: 64px;
+    color: $white-color;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 48px;
+    }
+  }
+
+  .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 150%;
+    color: $white-color;
+
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -44,21 +67,6 @@
     &__container {
       width: auto;
     }
-
-    .title {
-      max-width: 900px;
-      margin: 0 auto 40px auto;
-      font-size: 64px;
-      color: $white-color;
-    }
-
-    .text {
-      width: 80%;
-      margin: 0 auto;
-      font-size: 20px;
-      line-height: 140%;
-      color: $white-color;
-    }
   }
 }
 
@@ -66,10 +74,6 @@
   .galeria {
     .title {
       font-size: 64px;
-    }
-
-    .button {
-      left: -20%;
     }
   }
 }

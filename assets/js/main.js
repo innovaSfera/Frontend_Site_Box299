@@ -22,3 +22,52 @@ function stickyHeader() {
     : header.classList.remove("sticky-action");
 }
 window.addEventListener("scroll", stickyHeader);
+
+// ===== FILTRO =====
+const filtros = document.querySelectorAll(".filtro");
+const cards = document.querySelectorAll(".card");
+
+filtros.forEach((filtro) => {
+  filtro.addEventListener("click", () => {
+    filtros.forEach((f) => f.classList.remove("ativo"));
+    filtro.classList.add("ativo");
+
+    const categoriaSelecionada = filtro.getAttribute("data-filter");
+
+    cards.forEach((card) => {
+      const categoriaCard = card.getAttribute("data-category");
+      if (
+        categoriaSelecionada === "todos" ||
+        categoriaCard === categoriaSelecionada
+      ) {
+        card.classList.remove("hidden");
+      } else {
+        card.classList.add("hidden");
+      }
+    });
+  });
+});
+
+// Modal Zoom
+const zoomButtons = document.querySelectorAll(".zoom-icon");
+const modal = document.getElementById("modalZoom");
+const modalImg = document.getElementById("imagemModal");
+const fecharModal = document.getElementById("fecharModal");
+
+zoomButtons.forEach((botao) => {
+  botao.addEventListener("click", () => {
+    const img = botao.parentElement.querySelector("img");
+    modalImg.src = img.src;
+    modal.classList.remove("hidden");
+  });
+});
+
+fecharModal.addEventListener("click", () => {
+  modal.classList.add("hidden");
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.add("hidden");
+  }
+});

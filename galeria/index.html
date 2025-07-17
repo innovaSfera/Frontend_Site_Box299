@@ -28,13 +28,13 @@
               <a href="/" class="link">Início</a>
             </li>
             <li class="item">
-              <a href="/" class="link">Serviços</a>
+              <a href="/servicos/index.html" class="link">Serviços</a>
             </li>
             <li class="item">
               <a href="/galeria/index.html" class="link">Galeria</a>
             </li>
             <li class="item">
-              <a href="/" class="link">Localização</a>
+              <a href="#localizacao" class="link">Localização</a>
             </li>
           </ul>
 
@@ -42,7 +42,7 @@
         </div>
 
         <div class="toggle" id="toggle">
-          <i class="bx bx-menu"></i>
+          <img src="../assets/img/icon/menu.svg" alt="" />
         </div>
       </div>
     </header>
@@ -51,36 +51,236 @@
       <section class="galeria">
         <div class="wrapper">
           <div class="galeria__container container">
-            <p class="eyebrow section-eyebrow">
-              <span></span>
-              Estética Automotiva - Box 299
-            </p>
-            
-            <h2 class="title section-title">
-              Nossa galeria de fotos
-            </h2>
+            <p class="eyebrow section-eyebrow">Estética Automotiva - Box 299</p>
+
+            <h2 class="title section-title">Galeria de fotos</h2>
             <p class="text section-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum mollis risus, sed accumsan nisi ullamcorper non. Vestibulum bibendum diam sed nisi condimentum, et eleifend justo mollis.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              bibendum mollis risus, sed accumsan nisi ullamcorper non.
+              Vestibulum bibendum diam sed nisi condimentum, et eleifend justo
+              mollis.
             </p>
           </div>
 
           <div class="overlay">
             <img-comparison-slider>
-              <img
-                slot="first"
-                width="100%"
-                src="https://a-static.besthdwallpaper.com/black-racing-car-wallpaper-2560x1600-110087_7.jpg"
-              />
-              <img
-                slot="second"
-                width="100%"
-                src="https://wallpapers.com/images/hd/carro-2560x1440-rufqowax2lju0s4a.jpg"
-              />
+              <img slot="first" width="100%" src="../assets/img/carro.jpg" />
+              <img slot="second" width="100%" src="../assets/img/carro2.jpg" />
             </img-comparison-slider>
           </div>
         </div>
       </section>
     </main>
+
+    <section id="galerias-cards">
+      <div class="container">
+        <!-- Filtros -->
+        <div class="filtros">
+          <div class="filtro ativo" data-filter="todos">
+            <span><h2>Todos</h2></span>
+          </div>
+          <div class="filtro" data-filter="pickup">
+            <span><h2>Pickup</h2></span>
+          </div>
+          <div class="filtro" data-filter="suv">
+            <span><h2>SUV</h2></span>
+          </div>
+          <div class="filtro" data-filter="van">
+            <span><h2>Van</h2></span>
+          </div>
+          <div class="filtro" data-filter="esportivo">
+            <span><h2>Esportivo</h2></span>
+          </div>
+          <div class="filtro" data-filter="caminhao">
+            <span><h2>Caminhão</h2></span>
+          </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid">
+          <div class="card" data-category="pickup">
+            <div class="card-img">
+              <img src="../assets/img/carro.jpg" alt="Silverado" />
+              <div class="zoom-icon">
+                <img src="../assets/img/icon/zoom.svg" alt="Icon" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Silverado</h3>
+              <p>
+                Silverado 2024 feita pela equipe da Box 299, para lançamento da
+                Chevrolet.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-category="suv">
+            <div class="card-img">
+              <img src="../assets/img/carro.jpg" alt="Blazer" />
+              <div class="zoom-icon">
+                <img src="../assets/img/icon/zoom.svg" alt="Icon" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Blazer</h3>
+              <p>Blazer 2023, equipada para aventuras urbanas e off-road.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="van">
+            <div class="card-img">
+              <img src="../assets/img/carro.jpg" alt="Spin" />
+              <div class="zoom-icon">
+                <img src="../assets/img/icon/zoom.svg" alt="Icon" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Spin</h3>
+              <p>Spin Van 2022: conforto e espaço para toda família.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="pickup">
+            <div class="card-img">
+              <img src="../assets/img/carro.jpg" alt="S10" />
+              <div class="zoom-icon">
+                <img src="../assets/img/icon/zoom.svg" alt="Icon" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>S10</h3>
+              <p>S10 2024: robustez e desempenho para todos os terrenos.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="caminhao">
+            <div class="card-img">
+              <img src="../assets/img/carro.jpg" alt="Caminhão" />
+              <div class="zoom-icon">
+                <img src="../assets/img/icon/zoom.svg" alt="Icon" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Caminhão 312</h3>
+              <p>Modelo ideal para transporte pesado e longa distância.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="esportivo">
+            <div class="card-img">
+              <img src="../assets/img/carro.jpg" alt="Corvette" />
+              <div class="zoom-icon">
+                <img src="../assets/img/icon/zoom.svg" alt="Icon" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Corvette</h3>
+              <p>Potência, luxo e velocidade no esportivo da Chevrolet.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Zoom -->
+        <div id="modalZoom" class="modal hidden">
+          <span class="fechar" id="fecharModal">×</span>
+          <img id="imagemModal" src="" alt="Zoom" />
+        </div>
+      </div>
+    </section>
+
+    <section id="localizacao">
+      <div class="container">
+        <div class="info">
+          <span>
+            <span class="categoria">ESTÉTICA AUTOMOTIVA - BOX 299</span>
+            <h2>Confira o endereço onde está a nossa unidade</h2>
+          </span>
+
+          <div class="endereco-box">
+            <p class="cidade">São Paulo, SP</p>
+            <p class="endereco">
+              R. Francisco Pessoa, 153 - Vila Andrade<br />
+              05727-230
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1909009589686!2d-73.84993768459342!3d40.715119279330225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e91dc7ec65b%3A0xf1d0fdab0e502a76!2sForest%20Hills%20Stadium!5e0!3m2!1spt-BR!2sbr!4v1721200000000"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <section class="newsletter">
+          <h2>
+            Fique por dentro das novidades, receba atualização de novos
+            serviços.
+          </h2>
+          <form>
+            <div class="input-wrapper">
+              <span class="icon">
+                <img src="/assets/img/icon/user.svg" alt="Icon" />
+              </span>
+              <input type="email" placeholder="Entre com seu email" required />
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+
+        <div class="footer-content">
+          <div class="box-info">
+            <img src="/assets/img/logo.png" alt="Logo Box299" />
+            <p>
+              Na Box299, o seu carro e moto são tratados com carinho e
+              dedicação, saindo das nossas mãos como se fossem novos de fábrica.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div>
+              <h4>Links rápidos</h4>
+              <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Galeria</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Redes sociais</h4>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">TikTok</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Contato</h4>
+              <ul>
+                <li>(11) 94705-4976</li>
+                <li>Seg - Sáb Aberta: 8h - 18h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Todos os direitos reservados</p>
+          <p>Construção pela InnovaSfera</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="../assets/js/main.js"></script>
   </body>

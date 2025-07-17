@@ -32,9 +32,11 @@ Este projeto é uma site institucional desenvolvida para apresentar empresa e se
 
 ## 📦 Histórico de Deploy
 
-| Data       | Versão | Ambiente        | Descrição                      |
-| ---------- | ------ | --------------- | ------------------------------ |
-| 16/07/2025 | v1.0   | Desenvolvimento | Desenvolvimento página Galeria |
+| Data       | Versão | Ambiente        | Descrição                          |
+| ---------- | ------ | --------------- | ---------------------------------- |
+| 16/07/2025 | v1.0   | Desenvolvimento | Desenvolvimento página de Galeria  |
+| 17/07/2025 | v1.0.1 | Desenvolvimento | Página de Galeria finalizado       |
+| 17/07/2025 | v1.0.2 | Desenvolvimento | Desenvolvimento página de Serviços |
 
 ---
 

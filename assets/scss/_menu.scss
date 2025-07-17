@@ -34,6 +34,7 @@
       opacity: 0;
       transform: scaleY(0);
       transform-origin: top;
+      z-index: 999;
     }
 
     &.show-menu {
@@ -51,10 +52,6 @@
   .link {
     color: $white-color;
     font-size: 20px;
-
-    &:hover {
-      color: #dddddd;
-    }
   }
 
   .toggle {

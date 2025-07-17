@@ -1,0 +1,158 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 64px 0;
+
+  .container {
+    max-width: 1216px;
+    margin: 0 auto;
+  }
+}
+
+.newsletter {
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1290px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.4;
+    width: 40%;
+
+    @media screen and (max-width: 1290px) {
+      font-size: 32px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.input-wrapper {
+  background-color: none;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  width: 400px;
+  border: 2px solid #242424;
+
+  @media screen and (max-width: 1290px) {
+    width: 100%;
+  }
+}
+
+.input-wrapper .icon {
+  margin-right: 10px;
+}
+
+.input-wrapper input {
+  background: none;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+}
+
+button[type="submit"] {
+  background-color: #e81616;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 32px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+
+  @media screen and (max-width: 1290px) {
+    width: 100%;
+  }
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid #333;
+  padding-top: 56px;
+  gap: 40px;
+}
+
+.box-info {
+  max-width: 450px;
+}
+
+.box-info img {
+  width: 164px;
+  margin-bottom: 24px;
+}
+
+.box-info p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #a4a4a4;
+}
+
+.footer-links {
+  display: flex;
+  gap: 56px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  color: #a4a4a4;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 16px;
+}
+
+.footer-links a,
+.footer-links li {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 56px;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1116px) {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #a4a4a4;
+  }
+}
