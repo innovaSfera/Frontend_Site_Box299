@@ -71,3 +71,10 @@ modal.addEventListener("click", (e) => {
     modal.classList.add("hidden");
   }
 });
+
+// Botão para o WhatsApp
+document.querySelectorAll(".cta-button").forEach((button) => {
+  button.addEventListener("click", () => {
+    window.open("https://wa.me/5511947288343", "_blank");
+  });
+});

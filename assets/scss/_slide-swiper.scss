@@ -1,0 +1,81 @@
+.servicos-swiper {
+  text-align: center;
+  padding: 120px 0px;
+
+  .titulo {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .subtitulo {
+    font-size: 24px;
+    width: 60%;
+    margin: 24px auto 48px auto;
+    color: #fff;
+    line-height: 150%;
+  }
+
+  .swiper {
+    width: 1216px;
+    padding: 0 60px;
+  }
+
+  .swiper-slide {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 360px;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    display: block;
+  }
+
+  .card-content {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .card-content h3 {
+    color: #f1c40f;
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+  }
+
+  .card-content p {
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    background: #1a1a1a;
+    color: #f1c40f;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .swiper-button-prev {
+    left: 0px;
+  }
+
+  .swiper-button-next {
+    right: 0px;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 24px;
+  }
+}

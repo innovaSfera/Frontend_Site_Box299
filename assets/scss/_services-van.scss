@@ -1,0 +1,95 @@
+.van-section {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url("../img/bg-van.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .content h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .content p {
+    margin: 0 auto 48px auto;
+    font-size: 24px;
+    color: #fff;
+    width: 70%;
+  }
+
+  .van-layout {
+    position: relative;
+    margin-top: 120px;
+  }
+
+  .van-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+  }
+
+  .info-box {
+    width: 450px;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: start;
+    gap: 32px;
+  }
+
+  .info-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .info-box p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  .info-box img {
+    margin-top: 16px;
+    width: 48px;
+    height: 48px;
+  }
+
+  /* Posições */
+  .top.left {
+    top: 0;
+    left: 0;
+    text-align: right;
+  }
+
+  .top.right {
+    top: 0;
+    right: 0;
+    text-align: left;
+  }
+
+  .bottom.left {
+    bottom: 0;
+    left: 0;
+    text-align: right;
+  }
+
+  .bottom.right {
+    bottom: 0;
+    right: 0;
+    text-align: left;
+  }
+}

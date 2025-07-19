@@ -37,6 +37,7 @@ Este projeto é uma site institucional desenvolvida para apresentar empresa e se
 | 16/07/2025 | v1.0   | Desenvolvimento | Desenvolvimento página de Galeria  |
 | 17/07/2025 | v1.0.1 | Desenvolvimento | Página de Galeria finalizado       |
 | 17/07/2025 | v1.0.2 | Desenvolvimento | Desenvolvimento página de Serviços |
+| 18/07/2025 | v1.0.3 | Desenvolvimento | Página de Serviço finalizado       |
 
 ---
 
